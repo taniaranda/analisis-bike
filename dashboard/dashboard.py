@@ -6,7 +6,7 @@ import numpy as np
 
 sns.set(style='dark')
 
-all_df = pd.read_csv('all_data.csv')
+all_df = pd.read_csv('https://raw.githubusercontent.com/taniaranda/analisis-bike/main/dashboard/all_data.csv')
 
 #st.write(df)
 
