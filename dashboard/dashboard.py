@@ -23,7 +23,6 @@ Menampilkan visualisasi analisis Bike Sharing dataset.
 
 # Sidebar
 st.sidebar.header('Information')
-st.sidebar.image('dashboard/bikes.jpg', caption = "Bike Sharing", use_column_width=True)
 about = st.sidebar.text_area('About', 'This is a visualization of a bike sharing dataset analysis')
 
 # rental per-jam
